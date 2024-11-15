@@ -15,8 +15,9 @@ Kertoman ja binomikertoimen laskeminen
 ## Esim5
 
 Esimerkissä hainnolistetaan eri tapoja luoda olio: eli
-Automaattinen olio
 
-Dynaaminen olio
+-Automaattinen olio
 
-Smart pointerilla luotu olio
+-Dynaaminen olio
+
+-Smart pointerilla luotu olio
