@@ -21,6 +21,6 @@ Rectangle::Rectangle() //Ainakun luodaan olio, niin tätä muodostinta kutsutaan
 }
 Rectangle::~Rectangle() //tilde merkki "~" käytetään tuhoamisessa
 {
-  //  cout<<"Rectangle olio tuhottiin"<<endl;
+  //    cout<<"Rectangle olio tuhottiin"<<endl;
 }
 

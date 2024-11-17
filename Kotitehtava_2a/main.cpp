@@ -7,7 +7,7 @@
 using namespace std;
 
 int main()
-{   //Luodaan automaattinen olio pino muistiin
+{   //Luodaan automaattinen olio pino muistiin, tuhoutuu automaattisesti
     Car objCar;
     objCar.setBrand("Lada");
     objCar.setModel("Samara");
@@ -16,6 +16,7 @@ int main()
 
     cout<<"------------------"<<endl;
 
+    //Luodaan dynaaminen olio kekomuistiin ja tuhotaan itse
     Rectangle* objRectangle = new Rectangle();
     objRectangle->setWidth(7.5);
     objRectangle->setHeight(11.0);
@@ -26,6 +27,7 @@ int main()
 
     cout<<"------------------"<<endl;
 
+    //Luodaan smart pointer olio kekoon ja se tuhoutuu automaattisesti
     unique_ptr<Student> objStudent=make_unique<Student>();
     objStudent->setName("Taneli Taitaja");
     objStudent->setStudentNumber(000765432);
